@@ -28,6 +28,10 @@ export const links = [
     hash: "#experience",
   },
   {
+    name: "Life",
+    hash: "#life",
+  },
+  {
     name: "Contact",
     hash: "#contact",
   },
@@ -35,73 +39,146 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduate Teaching Assistant",
+    institution: "Simon Fraser University",
+    location: "Burnaby, BC",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+    "Graduate Teaching Assistant of CMPT 307 (Data Structures and Algorithms) and CMPT 120 (Probability and Computing)",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "May 2023 – Dec 2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Software Engineer Intern",
+    institution: "Mediashaker",
+    location: "Edmonton, AB",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+    "Built a dynamic form builder and real-time team chat module for a live CMS product. Improved submission completion through UX iteration, reduced system load by optimizing communication patterns, and enabled zero-downtime deployments through safe rollout practices.",
+    icon: React.createElement(CgWorkAlt),
+    date: "May 2024 – Aug 2024",
+  },
+  {
+    title: "MSc. in Visual Computing",
+    institution: "Simon Fraser University",
+    location: "Burnaby, BC",
+    description:
+      "I received my Master's degree from Simon Fraser University, focusing on computer vision, artificial intelligence, and software systems.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023 - 2025",
+  },
+  {
+    title: "Software Engineer Intern",
+    institution: "ShoutCMS",
+    location: "Edmonton, AB",
+    description:
+      "Developed and optimized multi-turn conversational flows for an AI-integrated SaaS platform. Enhanced response accuracy and speed by introducing session context handling, prompt templating, and caching strategies.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Jan 2023 – Apr 2023",
+  },
+  {
+    title: "Software Engineer Intern",
+    institution: "Jutong Automation",
+    location: "Suzhou, China (Remote)",
+    description:
+      "Designed and delivered a live factory monitoring dashboard for industrial operations. Integrated real-time telemetry pipelines, visualized high-frequency anomalies, and reduced troubleshooting time through interactive reporting tools.",
+    icon: React.createElement(CgWorkAlt),
+    date: "May 2022 – Dec 2022",
+  },
+  {
+    title: "BSc. in Computing Science (Honors)",
+    institution: "University of Alberta",
+    location: "Edmonton, AB",
+    description:
+      "I earned my Honors Bachelor's degree from the University of Alberta, where I built a strong foundation in computing theory, system design, and software engineering.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2019 - 2023",
   },
 ] as const;
+
 
 export const projectsData = [
   {
-    title: "CorpComment",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    title: "Course Scheduling System",
+    description: 'Developed an internal scheduling platform for U-School at University of Alberta',
+    tags: ["Typescipt", "React", "Python", "Django", "PostgreSQL", "Docker"],
+    imageUrl: "/project/project1.png",
+    githubUrl: "https://ualberta-cmput401.github.io/uschool-scheduling/",
+    demoUrl: "https://www.youtube.com/watch?v=vh7YIemEY_4",
   },
   {
-    title: "rmtDev",
+    title: "Echo AI",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A customizable AI voice chat platform with transcript playback.",
+    tags: ["Next.js", "Tailwind CSS", "PostgreSQL", "Stream.io", "OpenAI API", "Redis", "Docker"],
+    imageUrl: "/project/project2.png",
+    githubUrl: "https://github.com/simo-hh/echoai",
+    // demoUrl: "https://www.youtube.com/watch?v=vh7YIemEY_4",
   },
   {
-    title: "Word Analytics",
+    title: "Social Distribution",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A full-featured blogging platform supporting user registration, post creation, commenting, and content browsing.",
+    tags: ["Python", "Django", "HTML", "CSS", "SQLite", "JavaScript"],
+    imageUrl: "/project/project4.png",
+    githubUrl: "https://github.com/Zhijian-Mei/zhijian-group-cmput404-project",
+  },
+  {
+    title: "Order Service System",
+    description:
+      "An order service system supporting order creation, persistence, and async event dispatch.",
+    tags: ["Java","Spring Boot","JPA","PostgreSQL","RabbitMQ","Maven","Docker"],
+    imageUrl: "/project/project3.png",
+    githubUrl: "https://github.com/simo-hh/order-service",
   },
 ] as const;
 
-export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
-] as const;
+import { ReactElement } from "react";
+
+type Skill = {
+  name: string;
+  icon: ReactElement;
+};
+
+
+import {
+  SiTypescript,
+  SiJavascript,
+  SiPython,
+  SiGoland,
+  SiReact,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiNodedotjs,
+  SiSpringboot,
+  SiRedis,
+  SiPostgresql,
+  SiApachekafka,
+  SiAmazonaws,
+  SiDocker,
+  SiKubernetes,
+  SiGit,
+} from "react-icons/si";
+
+import { DiJava } from "react-icons/di";
+
+// Removed duplicate Skill type declaration
+
+export const skillsData: Skill[] = [
+  { name: "TypeScript", icon: React.createElement(SiTypescript) },
+  { name: "JavaScript", icon: React.createElement(SiJavascript) },
+  { name: "Python", icon: React.createElement(SiPython) },
+  { name: "Java", icon: React.createElement(DiJava) },
+  { name: "Golang", icon: React.createElement(SiGoland) },
+  { name: "React", icon: React.createElement(SiReact) },
+  { name: "Next.js", icon: React.createElement(SiNextdotjs) },
+  { name: "Tailwind CSS", icon: React.createElement(SiTailwindcss) },
+  { name: "Node.js", icon: React.createElement(SiNodedotjs) },
+  { name: "Spring Boot", icon: React.createElement(SiSpringboot) },
+  { name: "Redis", icon: React.createElement(SiRedis) },
+  { name: "PostgreSQL", icon: React.createElement(SiPostgresql) },
+  { name: "Kafka", icon: React.createElement(SiApachekafka) },
+  { name: "AWS", icon: React.createElement(SiAmazonaws) },
+  { name: "Docker", icon: React.createElement(SiDocker) },
+  { name: "Kubernetes", icon: React.createElement(SiKubernetes) },
+  { name: "Git", icon: React.createElement(SiGit) },
+];
+

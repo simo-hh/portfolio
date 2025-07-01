@@ -19,31 +19,45 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        I recently graduated with a degree in{" "}
+        <span className="font-medium">Visual Computing</span> from{" "}
+          <a
+            href="https://www.sfu.ca/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium underline"
+          >
+            Simon Fraser University
+          </a>, after completing my{" "}
+        <span className="font-medium">Bachelor's in Computing Science with First-Class Honors</span> at the {" "}
+          <a
+            href="https://www.ualberta.ca/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium underline"
+          >
+            University of Alberta
+          </a>
+        . My studies gave me a strong foundation in{" "}
+        <span className="italic">software systems, scalable architecture, and human-computer interaction</span>.
+      </p>
+
+      <p className="mb-3">
+        My internship experiences span a wide spectrum — from{" "}
+        <span className="font-medium">agile startup teams</span> to{" "}
+        <span className="font-medium">large-scale industrial systems</span> — which taught me to navigate{" "}
+        <span className="italic">different workflows, communication styles, and problem spaces</span>. 
+        I contributed to production-level features, collaborated across teams, and developed a{" "}
+        <span className="font-medium">strong sense of ownership and adaptability</span>.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        As a <span className="underline">new graduate</span>, I’m actively looking for a{" "}
+        <span className="font-medium">full-time position</span> as a software engineer. 
+        I’m excited to contribute to impactful products, grow alongside talented engineers, and{" "}
+        <span className="italic">keep learning every day</span>.
       </p>
+
     </motion.section>
   );
 }

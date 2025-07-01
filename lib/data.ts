@@ -70,7 +70,7 @@ export const experiencesData = [
     institution: "ShoutCMS",
     location: "Edmonton, AB",
     description:
-      "Developed and optimized multi-turn conversational flows for an AI-integrated SaaS platform. Enhanced response accuracy and speed by introducing session context handling, prompt templating, and caching strategies.",
+      "Built a high-performance product service supporting real-time pricing, intelligent search, and content localization, with scalable deployment and fast recovery under peak traffic.",
     icon: React.createElement(CgWorkAlt),
     date: "Jan 2023 – Apr 2023",
   },

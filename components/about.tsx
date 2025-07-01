@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I recently graduated with a degree in{" "}
+        I recently graduated with a Master degree in{" "}
         <span className="font-medium">Visual Computing</span> from{" "}
           <a
             href="https://www.sfu.ca/"
@@ -39,7 +39,7 @@ export default function About() {
             University of Alberta
           </a>
         . My studies gave me a strong foundation in{" "}
-        <span className="italic">software systems, scalable architecture, and human-computer interaction</span>.
+        <span className="italic">software engineering, artificial intelligence, and computer vision</span>.
       </p>
 
       <p className="mb-3">

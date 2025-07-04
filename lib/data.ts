@@ -70,7 +70,7 @@ export const experiencesData = [
     institution: "ShoutCMS",
     location: "Edmonton, AB",
     description:
-      "Built a high-performance product service supporting real-time pricing, intelligent search, and content localization, with scalable deployment and fast recovery under peak traffic.",
+      "Contributed to the development of an online form system by working on the visual configuration interface, submission logic, and deployment-related features.",
     icon: React.createElement(CgWorkAlt),
     date: "Jan 2023 – Apr 2023",
   },
@@ -79,7 +79,7 @@ export const experiencesData = [
     institution: "Jutong Automation",
     location: "Suzhou, China (Remote)",
     description:
-      "Designed and delivered a live factory monitoring dashboard for industrial operations. Integrated real-time telemetry pipelines, visualized high-frequency anomalies, and reduced troubleshooting time through interactive reporting tools.",
+      "Participated in building a logistics exception tracking feature focused on interactive map visualization, real-time data updates, and issue history queries.",
     icon: React.createElement(CgWorkAlt),
     date: "May 2022 – Dec 2022",
   },

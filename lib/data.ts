@@ -52,7 +52,7 @@ export const experiencesData = [
     institution: "Mediashaker",
     location: "Edmonton, AB",
     description:
-    "Built a dynamic form builder and real-time team chat module for a live CMS product. Improved submission completion through UX iteration, reduced system load by optimizing communication patterns, and enabled zero-downtime deployments through safe rollout practices.",
+    "Contributed to the development of an online form system by working on the visual configuration interface, submission logic, and deployment-related features.",
     icon: React.createElement(CgWorkAlt),
     date: "May 2024 – Aug 2024",
   },
@@ -70,7 +70,7 @@ export const experiencesData = [
     institution: "ShoutCMS",
     location: "Edmonton, AB",
     description:
-      "Contributed to the development of an online form system by working on the visual configuration interface, submission logic, and deployment-related features.",
+      "Built a dynamic product detail page and optimized high-traffic sales performance by reducing inventory query latency over 60% through custom caching.",
     icon: React.createElement(CgWorkAlt),
     date: "Jan 2023 – Apr 2023",
   },
@@ -127,7 +127,7 @@ export const projectsData = [
       "An order service system supporting order creation, persistence, and async event dispatch.",
     tags: ["Java","Spring Boot","JPA","PostgreSQL","RabbitMQ","Maven","Docker"],
     imageUrl: "/project/project3.png",
-    githubUrl: "https://github.com/simo-hh/order-service",
+    githubUrl: "https://github.com/simo-hh/orderservice",
   },
 ] as const;
 

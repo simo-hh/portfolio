@@ -43,7 +43,7 @@ export const experiencesData = [
     institution: "Simon Fraser University",
     location: "Burnaby, BC",
     description:
-    "Graduate Teaching Assistant of CMPT 307 (Data Structures and Algorithms) and CMPT 120 (Probability and Computing)",
+    "Graduate Teaching Assistant of CMPT 307 (Data Structures and Algorithms) and CMPT 210 (Probability and Computing)",
     icon: React.createElement(CgWorkAlt),
     date: "May 2023 – Dec 2024",
   },
@@ -111,7 +111,7 @@ export const projectsData = [
     tags: ["Next.js", "Tailwind CSS", "PostgreSQL", "Stream.io", "OpenAI API", "Redis", "Docker"],
     imageUrl: "/project/project2.png",
     githubUrl: "https://github.com/simo-hh/echoai",
-    demoUrl: "echoai-sigma.vercel.app",
+    demoUrl: "https://echoai-sigma.vercel.app",
   },
   {
     title: "Social Distribution",

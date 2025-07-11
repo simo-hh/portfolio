@@ -111,7 +111,7 @@ export const projectsData = [
     tags: ["Next.js", "Tailwind CSS", "PostgreSQL", "Stream.io", "OpenAI API", "Redis", "Docker"],
     imageUrl: "/project/project2.png",
     githubUrl: "https://github.com/simo-hh/echoai",
-    // demoUrl: "https://www.youtube.com/watch?v=vh7YIemEY_4",
+    demoUrl: "echoai-sigma.vercel.app",
   },
   {
     title: "Social Distribution",

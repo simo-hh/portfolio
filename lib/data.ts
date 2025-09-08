@@ -52,12 +52,12 @@ export const experiencesData = [
     institution: "Mediashaker",
     location: "Edmonton, AB",
     description:
-    "Contributed to the development of an online form system by working on the visual configuration interface, submission logic, and deployment-related features.",
+    "Worked on form implementation and optimization, focusing on improving scalability and user experience.",
     icon: React.createElement(CgWorkAlt),
     date: "May 2024 – Aug 2024",
   },
   {
-    title: "MSc. in Visual Computing",
+    title: "Master of Professional Computer Science (Visual Computing)",
     institution: "Simon Fraser University",
     location: "Burnaby, BC",
     description:
@@ -70,7 +70,7 @@ export const experiencesData = [
     institution: "ShoutCMS",
     location: "Edmonton, AB",
     description:
-      "Built a dynamic product detail page and optimized high-traffic sales performance by reducing inventory query latency over 60% through custom caching.",
+      "Contributed to development of an e-commerce platform, ensuring data consistency and system performance under high concurrency.",
     icon: React.createElement(CgWorkAlt),
     date: "Jan 2023 – Apr 2023",
   },
@@ -84,7 +84,7 @@ export const experiencesData = [
     date: "May 2022 – Dec 2022",
   },
   {
-    title: "BSc. in Computing Science (Honors)",
+    title: "Bachelor of Science in Computing Science (Honors)",
     institution: "University of Alberta",
     location: "Edmonton, AB",
     description:
